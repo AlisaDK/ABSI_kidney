@@ -2,6 +2,9 @@
 
 This repository contains code used for "Allometric body shape indices, type 2 diabetes and kidney function: A two-sample Mendelian randomization study" (doi: 10.1111/dom.15037)
 
+# NOTE: MR-PRESSO 
+R files in this repository use slightly modified MR-PRESSO R package: https://github.com/AlisaDK/MR-PRESSO in order to change reporting format and allow for differrent thresholds for NbDistribution (calculated as number of rows (=SNPs) * 20) insted of a a fixed one (default set at 1000).
+
 # ABSTRACT
 ## Aim: 
 To examine the association between body mass index (BMI)-independent allometric body shape indices and kidney function.
